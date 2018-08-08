@@ -29,7 +29,7 @@ An Ansible module to do delete versioned AWS S3 buckets.
 | security_token | no  |         |         | AWS STS security token. If not set then the value of the AWS_SECURITY_TOKEN or EC2_SECURITY_TOKEN environment variable is used. |
 | force     | bool |         |         | When trying to delete a bucket, delete all keys in the bucket first (an s3 bucket must be empty for a successful deletion) |
 | name  | yes |     |         | Name of the s3 bucket |
-| state | yes | no | `yes` or `no` | Create or remove the s3 bucket |
+| state | yes | absent | `present` or `absent` | Create or remove the s3 bucket |
 
 
 ## Integration
