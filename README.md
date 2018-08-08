@@ -1,6 +1,6 @@
 # Ansible Module
 
-Custom ansible moduls not yet submitted or accepted by [Ansible](https://github.com/ansible/ansible).
+Custom ansible module not yet submitted or accepted by [Ansible](https://github.com/ansible/ansible).
 
 ## Usage
 
